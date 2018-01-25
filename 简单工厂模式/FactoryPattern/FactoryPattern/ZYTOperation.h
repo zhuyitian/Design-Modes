@@ -10,7 +10,6 @@
 // @discussion 总运算类
 //
 
-#import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
 typedef NS_ENUM(NSInteger , OperationType) {

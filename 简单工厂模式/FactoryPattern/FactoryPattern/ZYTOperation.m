@@ -41,10 +41,10 @@ static ZYTOperation *_operation;
 
 - (CGFloat)getResult {
     switch (self.type) {
-        case AddType:return [[ZYTAdd CreatWithParameterOne:self.parameterOne withParameterTwo:self.parameterTwo withType:self.type] getResult];
-        case SubType:return [[ZYTSubtraction CreatWithParameterOne:self.parameterOne withParameterTwo:self.parameterTwo withType:self.type] getResult];
-        case MulType:return [[ZYTMultiplication CreatWithParameterOne:self.parameterOne withParameterTwo:self.parameterTwo withType:self.type] getResult];
-        case DivType:return [[ZYTDivision CreatWithParameterOne:self.parameterOne withParameterTwo:self.parameterTwo withType:self.type] getResult];
+        case AddType:return [[ZYTAdd CreatWithParameterOne:self.parameterOne withParameterTwo:self.parameterTwo withType:self.type] getResult];//加法
+        case SubType:return [[ZYTSubtraction CreatWithParameterOne:self.parameterOne withParameterTwo:self.parameterTwo withType:self.type] getResult];//减法
+        case MulType:return [[ZYTMultiplication CreatWithParameterOne:self.parameterOne withParameterTwo:self.parameterTwo withType:self.type] getResult];//乘法
+        case DivType:return [[ZYTDivision CreatWithParameterOne:self.parameterOne withParameterTwo:self.parameterTwo withType:self.type] getResult];//除法
         default:return 0;
     }
     return 0;
